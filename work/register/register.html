@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body id="body">
+    <div id="formWrap">
+        <h1 id="welcome">Welcome</h1>
+        <p id="fill">Please fill out the blanks</p>
+        <form action="" name="register" id="form">
+            <input type="email" name="email" placeholder="Register with email" class="blank">
+            <span id="character"></span>
+            <input type="tel" placeholder="Type telephone number" name="tel" class="blank">
+            <input type="password" placeholder="Enter new password" name="password" class="blank">
+            <div id="boxHolder">
+                <div id="boxItems"></div>
+                <div id="boxItems"></div>
+                <div id="boxItems"></div>
+                <div id="boxItems"></div>
+            </div>
+            <span id="strength"></span>
+            <input type="password" placeholder="Confirm password" name="passwordConfirm" class="blank">
+            <button id="send">Register</button>
+            <p id="absence">Returning user ? <a href="../login/login.html">Login</a></p>
+        </form>
+    </div>
+    <div class="black"></div>
+    <script src="./register.js"></script>
+</body>
+</html>

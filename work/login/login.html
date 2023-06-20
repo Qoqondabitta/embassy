@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body id="body">
+    <div id="formWrap">
+        <h1 id="welcome">Welcome</h1>
+        <p id="fill">Please fill out the blanks</p>
+        <form action="" name="login" id="form">
+            <input type="email" name="email" placeholder="Login with email" class="blank">
+            <span id="character"></span>
+            <div id="boxHolder">
+                <div id="boxItems" class="boxItems"></div>
+                <div id="boxItems" class="boxItems"></div>
+                <div id="boxItems" class="boxItems"></div>
+                <div id="boxItems" class="boxItems"></div>
+            </div>
+            <input type="tel" placeholder="Type telephone number" name="tel" class="blank">
+            <input type="password" placeholder="Enter password" name="password" class="blank">
+            <button id="send">Submit</button>
+            <p id="absence">You do not have account? <a href="../register/register.html">Register</a></p>
+        </form>
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./Assets/images/charlesdeluvio-Lks7vei-eAg-unsplash.jpg);
+    background-size: cover;
+    animation: back 16s ease-in-out infinite;
+    /* height: 100vh; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    object-fit: cover;
+    /* opacity: rgba(0,0,0,0.75); */
+}
+#formWrap{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 800px;
+    background-color: rgba(172, 165, 165, 0.715);
+    margin: 100px auto;
+    display: flex;
+    row-gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#welcome{
+    color: white;
+    font-size: 65px;
+}
+#fill{
+    color: white;
+    font-size: 20px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.blank{
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 600px;
+    height: 55px;
+    margin: 10px auto;
+}
+#boxHolder{
+    display: flex;
+    display: none;
+    column-gap: 5px;
+    justify-content: flex-start;
+}
+#boxItems{
+    border-radius: 10px;
+    background-color: white;
+    height: 5px;
+    width: 145px;
+}
+#send{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 600px;
+    height: 65px;
+    margin: 10px auto;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+#absence{
+    color: white;
+    font-size: 20px;
+}
+#absence a{
+    color: skyblue;
+    font-size: 20px;
+}
+@keyframes back {
+    0%, 100% {
+        background-image: url(../Assets/images/charlesdeluvio-Lks7vei-eAg-unsplash.jpg);
+    }
+    25%{
+        background-image: url(../Assets/images/photo-1568992687947-868a62a9f521.avif);
+    }
+    50%{
+        background-image: url(../Assets/images/photo-1568992688065-536aad8a12f6.avif);
+    } 
+    75%{
+        background-image: url(../Assets/images/charlesdeluvio-Lks7vei-eAg-unsplash.jpg);
+    }
+}
