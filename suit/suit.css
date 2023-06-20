@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* head start */
+.header{
+    height: 100vh;
+    animation: backAnimate 10s ease-in-out infinite;
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+/* head end */
+.suit {
+    display: flex;
+    justify-content: center;
+}
+.container{
+    padding-top: 100px;
+    width: 1600px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.suitHolder{
+    /* margin-top: 100px; */
+    height: 670px;
+    margin: 0 auto;    
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 4px 10px 15px #292828;
+}
+.child{
+    height: 500%;
+    width: 380px;    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    margin: 0;
+    animation: animate 8s ease-in-out infinite;
+}
+.child img{
+    object-fit: cover;
+    object-position: right;
+    width: 100%;
+    height: 20%;
+}
+@keyframes animate {
+    0%{
+        top: 0;
+    }
+    20%{
+        top: 0
+    }
+    25%{
+        top:-100%
+    }
+    45%{
+        top:-100%
+    }
+    50%{
+        top:-200%
+    }
+    70%{
+        top:-200%
+    }
+    75%{
+        top:-300%
+    }
+    95%{
+        top:-300%
+    }
+    100%{
+        top:-400%
+    }
+}
+@keyframes backAnimate{
+    0%,100%{
+        background-image: url(./suit/suit1.jpg);
+    }
+    25%{
+        background-image: url(./suit/fifth1.jpg);
+    }
+    50%{
+        background-image: url(./suit/first.jpg);
+    }
+    75%{
+        background-image: url(./suit/street1.jpg);
+    }
+}
