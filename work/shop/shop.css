@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+}
+.header{
+    padding: 25px 60px;
+    width: 100%;
+    display: flex;
+    column-gap: 5px;
+}
+.messageLeft{
+    padding: 50px 130px 10px 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#hurry{
+    font-size: 65px;
+    line-height: 90px;
+}
+#hurry span{
+    color: red;
+}
+#benefit{
+    line-height: 27px;
+    font-size: 12px;
+}
+.headbtn{
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    transition: all 0.3s;
+}
+.headbtn:hover{
+    transform: scale(1.15);
+}
+#orNow{
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: red;
+    border: 1px solid red;
+}
+#call{
+    color: black;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: white;
+    border: 1px solid rgb(177, 174, 174);
+}
+.kovushRight{
+    width: 50%;
+}
+.caruselItems{
+    display: flex;
+    flex-direction: column;
+    /* background-color: skyblue; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-bottom: 30px;
+    height: 600px;
+}
+
+.firstDiscount{
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start; */
+    padding-bottom: 30px;
+}
+.columnStyles{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.tag{
+    border-radius: 10px;
+    position: relative;
+    /* z-index: 20; */
+    top: -480px;
+    left: -305px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 120px;
+    height: 110px;
+    align-items: flex-start;
+    padding: 15px 15px 0px 12px;
+    background-color: white;
+    box-shadow: 4px 7px 15px #969393;
+}
+.active{
+    /* display: block; */
+    z-index: 1000;
+}  
+.firstDiscount{
+    position: absolute;
+}
+.secondDiscount{
+    position: absolute;
+}
+.thirdDiscount{
+    position: absolute;
+}
+#percentage{
+    color: red;
+    font-size: 25px;
+}
+.imgAll{
+    width: 536px;
+    height: 100%;
+}
+.firstDiscount img{
+    /* border: 1px solid black; */
+
+}
+.badge{
+    box-shadow: 4px 7px 15px #969393;
+    rotate: -30deg;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    top: -350px;
+    left: -60px;
+    z-index: 0;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(82, 247, 82);
+}
+.tagPrice{
+    font-size: 25px;
+    color: white;
+}
+.displayStyles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price{
+    position: relative;
+    top: -400px;
+    left: -380px;
+    padding: 15px;
+    border-radius: 50%;
+    width: 160px;
+    height: 80px;
+    box-shadow: 4px 7px 15px #969393;
+    background-color: rgb(221, 70, 70);
+}
+.priceDiscount{
+    position: relative;
+    top: -430px;
+    left: -330px;
+    padding: 20px;
+    border-radius: 50%;
+    width: 160px;
+    height: 100px;
+    box-shadow: 4px 7px 15px #969393;
+    background-color: rgb(221, 70, 70);
+}
+.super{
+    position: relative;
+    top: 120px;
+    left: 50px;
+    rotate: -10deg;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 200px;
+    height: 60px;
+    background-color: yellow;
+    box-shadow: 4px 7px 15px #969393;
+    z-index: 0;
+}
+.secondDiscount img{
+    /* border: 2px solid yellow; */
+    width: 536px;
+    height: 100%;
+}
+.thirdDiscount img{
+    /* border: 2px solid blue; */
+    width: 536px;
+    height: 100%;
+}
+.twobtn{
+    z-index: 1;
+    box-shadow: 4px 7px 15px #837f7f;
+    width: 150px;
+    height: 35px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: all 0.3s;
+} 
+.twobtn:hover{
+    transform: scale(1.15);
+}
+#previous{
+    background-color: white;
+    border: 1px solid white;    
+}
+#previous i{
+    color: rgb(187, 182, 182);
+}
+#next{
+    background-color: red;
+    border: 1px solid red;
+}
+#next i{
+    color: white;
+}
+.stage{
+    width: 100%;
+    z-index: 19000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -525px;
+}
