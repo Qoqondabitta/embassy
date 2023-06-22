@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+}
+.bigNav{
+    width: 100%;
+}
+.upperPart{
+    padding: 20px;
+}
+.logoName{
+    gap: 10px;
+    width: 31%;
+}
+.logoName img{
+    width: 80px;
+    height: 80px;
+}
+.xon h1{
+    font-size: 120px;
+    letter-spacing: -0.12em;
+    line-height: 100px;
+    border-radius: 20px;
+}
+.listContact{
+    gap: 10px;
+}
+#navList{
+    padding-top: 17px;
+    display: flex;
+    column-gap: 23px;
+}
+#navList li{
+    list-style-type: none;
+    border-bottom: 2px dotted black;
+    transition: all 0.3s;
+}
+#navList li:hover{
+    transform: scale(1.15);
+}
+#navList li a{
+    color: black;
+    text-decoration: dotted;
+    transition: all 0.3s;
+}
+#navList li a:hover{
+    color: gold;
+}
+.buttonLine{
+    width: 100%;
+    gap: 31px;
+    padding-bottom: 20px;
+}
+.description{
+    width: 27%;
+}
+.tN{
+    width: 35%;
+    gap: 15px;
+}
+.tN i{
+    position: relative;
+    top: 3px;
+    font-size: 25px;
+}
+.tN h1{
+    color: rgb(10, 10, 86);
+}
+.lastNavBtn{
+    width: 30%;
+
+}
+.signing{
+    width: 160px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.3s;
+}
+.signing:hover{
+    transform: scale(1.15);
+}
+#log{
+    border: 1px solid red;
+    background-color: red;
+    /* box-shadow: 4px 7px 15px #837f7f; */
+}
+.a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}

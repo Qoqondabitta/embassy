@@ -1,0 +1,36 @@
+.row{
+    display: flex;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.align{
+    display: flex;
+    align-items: center;
+}
+.columnAlign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.justify{
+    display: flex;
+    justify-content: center;
+}
+.justifyColumn{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.allRow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.allColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

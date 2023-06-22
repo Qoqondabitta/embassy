@@ -4,12 +4,8 @@
     box-sizing: border-box;
 }
 .headerPlastic{
-    background-color: yellow;
     padding-top: 100px;
     padding-bottom: 100px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 .container{
     max-width: 1300px;
@@ -19,20 +15,16 @@
 
 .headPlastic{
     display: flex;
-    /* gap: 25px; */
     width: 100%;
-    /* background-color: red; */
 }
 .chinaPlastic{
     padding-bottom: 15px;
     display: flex;
     flex-direction: column;
-    /* gap: 30px; */
     align-items: center;
     justify-content: space-between;
     height: 650px;
     width: 25%;
-    /* background-color: blue; */
 }
 .columnStyles{
     display: flex;
@@ -72,6 +64,7 @@
     text-align: center;
 }
 .pyramidTitle h1{
+    color: rgb(62, 56, 56);
     font-size: 55px;
     letter-spacing: 0.1rem;
     text-shadow: 4px 10px 15px #666363;
@@ -108,7 +101,7 @@
     align-items: center;
     justify-content: space-between;
     height: 650px;
-    width: 25%;
+    width: 24%;
 }
 .uzbekInfo p{
     text-shadow: 4px 10px 15px #666363;
@@ -136,19 +129,17 @@
     flex-direction: column;
     align-items: flex-start;
     box-shadow: 4px 7px 15px #837f7f;
-    background-color: red;
+    background-color: rgb(39, 9, 73);
     border-color: red;
     gap: 10px;
-    border-radius: 15px;
     border: 1px solid rgb(209, 205, 205);
     max-width: 280px;
 
 }
 .plastics img{
-    border-radius: 15px;
     border: none;
-    max-width: 280px;
-    height: 300px;
+    width: 100%;
+    height: 250px;
 }
 .infoWrap{
     padding: 15px;
@@ -164,10 +155,12 @@
     color: white;
 }
 .tel2{
+    padding-top: 5px;
+    width: 100%;
     display: flex;
     gap: 90px;
     align-items: center;
-    /* justify-content: space-between; */
+    border-top: 1px solid rgb(175, 171, 171);
 }
 .orderBtn{
     padding: 5px;
