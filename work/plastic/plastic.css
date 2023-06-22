@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headerPlastic{
+    background-color: yellow;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.container{
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+}
+
+.headPlastic{
+    display: flex;
+    /* gap: 25px; */
+    width: 100%;
+    /* background-color: red; */
+}
+.chinaPlastic{
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+    align-items: center;
+    justify-content: space-between;
+    height: 650px;
+    width: 25%;
+    /* background-color: blue; */
+}
+.columnStyles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.chinaInfo p{
+    rotate: -90deg;
+    text-shadow: 4px 10px 15px #666363;
+}
+.chinaPhoto img{
+    width: 200px;
+    height: 300px;
+    object-position: center;
+    border-top-right-radius: 80px;
+}
+.chinaInfo{
+    position: relative;
+    top: 40px;
+    left: -100px;
+}
+.addMessage{
+    gap: 40px;
+    height: 650px;
+    width: 50%;
+    /* background-color: green; */
+}
+.nation{
+    padding: 5px 100px;
+}
+.nation p{
+    text-shadow: 4px 10px 15px #666363;
+    font-size: 13px;
+}
+.addMessage p{
+    text-align: center;
+}
+.pyramidTitle h1{
+    font-size: 55px;
+    letter-spacing: 0.1rem;
+    text-shadow: 4px 10px 15px #666363;
+    line-height: 60px;    
+}
+.contactBtn{
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 4px 7px 15px #837f7f;
+    width: 160px;
+    height: 40px;
+    transition: all 0.3s;
+}
+.contactBtn:hover{
+    transform: scale(1.15);
+}
+.contactBtn a{
+    color: white;
+    text-decoration: none;
+}
+.number{
+    border-color: rgb(107, 239, 107);
+    background-color: rgb(107, 239, 107);
+}
+.tg{
+    border-color: orange;
+    background-color: orange;
+}
+.uzbekPlastic{
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+    align-items: center;
+    justify-content: space-between;
+    height: 650px;
+    width: 25%;
+}
+.uzbekInfo p{
+    text-shadow: 4px 10px 15px #666363;
+    rotate: -90deg;
+}
+.uzbekInfo{
+    position: relative;
+    left: 90px;
+    top: -50px;
+}
+.about{
+    padding-top: 50px;
+}
+.differ{
+    position: relative;
+    top: -80px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.plastics{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 4px 7px 15px #837f7f;
+    background-color: red;
+    border-color: red;
+    gap: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(209, 205, 205);
+    max-width: 280px;
+
+}
+.plastics img{
+    border-radius: 15px;
+    border: none;
+    max-width: 280px;
+    height: 300px;
+}
+.infoWrap{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.plastics h1{
+    color: white;
+}
+.plastics p{
+    color: white;
+}
+.tel2{
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.orderBtn{
+    padding: 5px;
+    background-color: orange;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: all 0.3s;
+    width: 80px;
+    border-color: orange;
+    transition: all 0.3s;
+}
+.orderBtn:hover{
+    transform: scale(1.15);
+}
+.orderBtn a{
+    text-decoration: none;
+    color: white;
+}

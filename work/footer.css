@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+}
+.foot{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    height: 100%;
+    padding-left: 30px;
+    width: 30%;
+}
+.list ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list ul li a{
+    text-decoration: none;
+}
+.icons{
+    padding-top: 40px;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.color{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.green{
+    background-color: rgb(77, 213, 77);
+}
+.blue{
+    background-color: rgb(127, 127, 246);
+}
+.red{
+    background-color: rgb(229, 11, 98);
+}
+.doubleFoot{
+    box-shadow: 4px 7px 15px #837f7f;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.above{
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    height: 200px;
+    padding: 30px;
+    background-image: url(./Assets/images/delivery.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.above h1{
+    color: white;
+}
+.black{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(62, 56, 56);
+}
+.telNumbers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.under{
+    background-color: white;
+    width: 95%;
+    height: 200px;
+    position: relative;
+    top: -55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 4px 7px 15px #837f7f;
+    gap: 70px;
+}
+.add p{
+    line-height: 30px;
+    border-left: 2px solid red;
+    padding-left: 15px;
+    padding-right: 35px;
+}
+
+.phoneCall{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.phoneCall i{
+    font-size: 20px;
+}
+.final{
+    padding-bottom: 30px;
+    color: rgb(5, 5, 72);
+}
