@@ -1,0 +1,85 @@
+.delivery{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.container{
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+}
+.deliver{
+    width: 100%;
+    gap: 20px;
+}
+.discount{
+    width: 300px;
+}
+.slideDeliver{
+    width: 100%;
+}
+.slideCars{
+    /* height: 400px; */
+    padding-right: 30px;
+    padding-bottom: 20px;
+    width: 100%;
+    gap: 20px;
+}
+.SlideCarsBox{
+    box-shadow: 4px 7px 15px #837f7f;
+    gap: 25px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgb(225, 220, 220);
+    /* position: absolute; */
+}
+.index{
+    /* position: absolute; */
+    z-index: 1000;
+}
+.SlideCarsBox img{
+    width: 250px;
+    height: 160px;
+}
+.ant{
+    object-fit: cover;
+}
+.carDetails{
+    height: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+.CarStuff{
+    gap: 80px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.CarStuff p{
+    color: grey;
+}
+.CarStuff span{
+    color: black;
+}
+.technicalData{
+    gap: 10px;
+    align-items: flex-start;
+}
+.mechanicalData{
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.Cost{
+    gap: 10px;
+    padding-right: 10px;
+    align-items: flex-end;
+}
+.deliverButton{
+    color: white;
+    background-color: rgb(34, 19, 69);
+    border: 1px solid rgb(23, 4, 67);
+    width: 90px;
+    border-radius: 10px;
+    padding: 5px;
+}

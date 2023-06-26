@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+[type='checkbox']{
+    display: none;
+}
+[type='checkbox']:checked ~ div{
+    left: 0;
+}
+.burger{
+    margin-top: 30px;
+    display: none;
+}
+.burgerMenu{
+    align-items: flex-end;
+    gap: 20px;
+    width: 375px;
+    height: 150vh;
+    background-color: rgb(111, 108, 108);
+    position: fixed;
+    top:0px;
+    left: 100%;
+    transition: all 0.5s;
+}
+.burgerMenu ul{
+    width: 100%;
+    gap: 15px;
+}
+.burgerMenu ul li{
+    list-style-type: none;
+    border-bottom: 2px dotted black;
+}
+.burgerMenu ul li a {
+    text-decoration: none;
+    color: black;
+}
+.topBurger{
+    padding: 10px 10px 0px 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+.topBurger button {
+    width: 100px;
+    height: 25px;
+    color: white;
+    border: 1px solid orange;
+    transition: all 0.3s;
+}
+.topBurger button:hover{
+    transform: scale(1.15);
+}
+.filterPart1{
+    width: 100%;
+}
+#superFindBurger{
+    padding-left: 15px;
+    border-right-color: black;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-left-color: black;
+    height: 30px;
+    width: 325px;
+}
+#demographics{
+    width: 100%;
+    gap: 15px;
+    justify-content: center;
+}
+#navIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hiddenProduct{
+    display: none;
+    gap: 20px;
+}
+.hiddenProduct:hover ul{
+    display: flex;
+    transition: all 0.3s;
+}
+.hiddenProduct h3{
+    text-align: center;
+}
+.hiddenProduct ul{
+    display: none;
+    padding: 10px 0px 10px 0px;
+    box-shadow: 4px 7px 15px #837f7f;
+    background-color: white;
+    width: 300px;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hiddenProduct ul li{
+    list-style-type: none;
+    border-bottom: 2px dotted black;
+    transition: all 0.3s;
+}
+.hiddenProduct ul li:hover{
+    transform: scale(1.15);
+    /* cursor: pointer; */
+}
+.hiddenProduct ul li  a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s;
+}
+.hiddenProduct ul li a:hover{
+    color: gold;
+}
+#checkLabel i{
+    background-color: white;
+    font-size: 25px;
+}

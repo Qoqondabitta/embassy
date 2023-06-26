@@ -12,29 +12,31 @@
     width: 100%;
 }
 .upperPart{
-    padding: 20px;
+    gap: 55px;
+    padding: 20px 20px 0 40px;
 }
 .logoName{
     gap: 10px;
-    width: 31%;
+    width: 25%;
 }
 .logoName img{
     width: 80px;
     height: 80px;
 }
 .xon h1{
+    color: rgb(102, 101, 101);
     font-size: 120px;
     letter-spacing: -0.12em;
     line-height: 100px;
     border-radius: 20px;
 }
 .listContact{
-    gap: 10px;
+    gap: 5px;
 }
 #navList{
     padding-top: 17px;
     display: flex;
-    column-gap: 23px;
+    column-gap: 20px;
 }
 #navList li{
     list-style-type: none;
@@ -55,7 +57,7 @@
 .buttonLine{
     width: 100%;
     gap: 31px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 .description{
     width: 27%;
@@ -68,6 +70,7 @@
     position: relative;
     top: 3px;
     font-size: 25px;
+    color: rgb(66, 238, 66);
 }
 .tN h1{
     color: rgb(10, 10, 86);
@@ -77,7 +80,7 @@
 
 }
 .signing{
-    width: 160px;
+    width: 180px;
     height: 30px;
     border-radius: 5px;
     text-align: center;
@@ -87,12 +90,220 @@
     transform: scale(1.15);
 }
 #log{
-    border: 1px solid red;
-    background-color: red;
+    border: 1px solid orange;
+    background-color: orange;
     /* box-shadow: 4px 7px 15px #837f7f; */
 }
 .a{
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+}
+.bottomPart{
+    width: 100%;
+    padding: 0px 20px 0 40px;
+    gap: 40px;
+}
+.filterPart{
+    width: 48%;  
+    column-gap: 0;
+    border-radius: 10px;
+    /* box-shadow: 4px 7px 15px #969393;   */
+}
+#superFind{
+    padding-left: 15px;
+    border-right-color: black;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-left-color: black;
+    height: 35px;
+    width: 520px;
+}
+#filter1{
+    margin-left: -50px;
+
+    /* border-right-color: black;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-left-color: white; */
+    /* text-decoration: none; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 60px;
+}
+#filter1 a i{
+    /* border-right-color: black;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-left-color: white; */
+    font-size: 27px;
+    color: black;
+}
+.demographics{
+    gap: 57px;
+}
+.iconColumns{
+    gap: 10px;
+}
+.navIcon i{
+    font-size: 20px;
+}
+#firstNavIcon{
+    color: rgb(64, 252, 64);
+}
+#secondtNavIcon{
+    color: gold;
+}
+.iconComment p{
+    font-size: 12px;
+}
+#products{
+    padding-top: 10px;
+}
+#productName li{
+    border-bottom: 2px dotted black;
+}
+/* hardSidebar start */
+.hardHeader{
+    margin-top: 30px;
+}
+.hardHead{
+    gap: 15px;
+    width: 100%;
+}
+.hardSidebar{
+    width: 29%;
+    padding: 20px 10px 20px 20px;
+    align-items: flex-start;
+}
+.catalog{
+    color: #b5b4b4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    padding: 10px 10px 5px 20px;
+    background-color: rgb(195, 234, 250);
+}
+.sideList{
+    padding: 10px 10px 20px 20px;
+    box-shadow: 4px 7px 15px #c0bbbb;
+    width: 100%;
+    align-items: flex-start;
+    gap: 25px;
+}
+.sideList ul{
+    list-style-type: none;
+    gap: 20px;
+}
+.downIcon{
+    width: 100%;
+    justify-content: space-between;
+}
+.listIcon{
+    gap: 10px;
+}
+.listIcon i{
+    font-size: 20px;
+}
+.hardHeadPart{
+    width: 70%;
+    gap: 17px;
+}
+.nameLocation h1{
+    color: rgb(54, 53, 53);
+}
+.nameLocation h1 span{
+    color: gold;
+}
+.nameLocation h2{
+    color: rgb(89, 87, 87);
+}
+.slideContent{
+    padding: 5px 30px 0 5px;
+    height: 514px;
+    /* background-image: url(../Assets/images/wooden\ float\ background.jpg); */
+    
+}
+.buttonName{
+    justify-content: flex-end;
+    width: 780px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 100%;
+    background-image: url(../Assets/images/wooden\ float\ background.jpg);
+    gap: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+#buttonName{
+    background-image: url(../Assets/images/wooden\ float\ background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+#buttonName2{
+    background-image: url(../Assets/images/wooden\ float\ background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+.active{
+    z-index: 100;
+    background-color: orange;
+}
+.floatSlider{
+    padding-right: 60px;
+}
+.rightCommentButton{
+    gap: 20px;
+}
+.rightComment{
+    padding-right: 70px;
+    text-align: center;
+    color: rgb(248, 244, 244);
+}
+.SuperButtonHolder{
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+#superHeaderButton{
+    position: relative;
+    z-index: 2000;
+    left: 370px;
+    top: -250px;
+}
+#superHeaderNextButton{
+    position: relative;
+    z-index: 2000;
+    left: -55px;
+    top: -255px;
+}
+.lastSlide{
+    /* position: absolute;
+    z-index: 200; */
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    font-size: 30px;
+}
+.dots{
+    z-index: 2000;
+    width: 100%;
+    gap: 10px;
+    position: relative;
+    top: -30px;
+}
+.dot{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(207, 201, 201);
+
 }

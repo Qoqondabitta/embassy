@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wooden Float</title>
+    <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./wooden.css">
-    <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="../superNavbar.css">
     <link rel="stylesheet" href="../display.css">
+    <link rel="stylesheet" href="./trowel.css">
+    <link rel="stylesheet" href="../buger.css">
     <link rel="stylesheet" href="../footer.css">
     <link rel="stylesheet" href="../products.css">
+    <link rel="stylesheet" href="./trowelMedia.css">
     <link rel="stylesheet" href="../delivery.css">
 </head>
 <body>
-    <!-- superNavbar start -->
+    <div class="background">   
+    <div class="black"></div>
+    <!-- Super navbar start-->
     <div class="superNavbar">
         <div class="container">
             <div class="bigNav justifyColumn">
@@ -27,7 +31,7 @@
                     </div>
                     <div class="listContact justifyColumn">
                         <ul id="navList">
-                            <li><a href="">Services</a></li>
+                            <li><a href="#Services">Services</a></li>
                             <li><a href="">In-Demand</a></li>
                             <li><a href="">Discounts</a></li>
                             <li><a href="">Contacts</a></li>
@@ -52,6 +56,57 @@
                             
                         </div>
                     </div>
+                    <div class="burger">
+                        <input type="checkbox" id="check">
+                        <label for="check" id="checkLabel"><i class="fa fa-thin fa-bars"></i></label>
+                        <div class="burgerMenu column">
+                            <div class="topBurger align">
+                                <button><a href="../login/login.html">Login</a></button>
+                                <label for="check" class="open"><i class="fa fa-thin fa-share"></i></label>
+                            </div>
+                            <ul class="allRow">
+                                <li><a href="">Services</a></li>
+                                <li><a href="">Contacts</a></li>
+                                <li><a href="">Discounts</a></li>
+                                <li><a href="">Domestic Production</a></li>
+                            </ul>
+                            <div class="filterPart1 allRow">
+                                <form action="" >
+                                    <input type="text" placeholder="Find" name="superFind" id="superFindBurger">
+                                </form>
+                                <div id="filter1" class="allRow"><a href=""><i class="fa fa-regular fa-filter"></i> </a></div>
+                                
+                            </div>
+                            <div id="demographics" class="demographics align">
+                                <div class="iconColumns column">
+                                    <div id="navIcon" class="navIcon">
+                                        <a href=""><i class="fa fa-brands fa-whatsapp" id="firstNavIcon"></i></a>
+                                    </div>
+                                    <div class="iconComment allColumn">
+                                        <p>contact with us on</p>
+                                        <p>Whats APP</p>
+                                    </div>                            
+                                </div>
+                                <div class="iconColumns justifyColumn">
+                                    <div id="navIcon" class="navIcon">
+                                        <a href=""><i class="fa fa-sharp fa-light fa-envelope" id="secondtNavIcon"></i></a>
+                                    </div>
+                                    <div class="iconComment allColumn">
+                                        <p>abdulakhadjon@gamil.com</p>
+                                    </div>                                
+                                </div>
+                                <div class="iconColumns column">
+                                    <div id="navIcon" class="navIcon">
+                                        <a href=""><i class="fa fa-solid fa-user"></i></a>
+                                    </div>
+                                    <div class="iconComment allColumn">
+                                        <p>Tashkent, Uzbekistan</p>
+                                        <p>Orizor street market</p>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="bottomPart align">
                     <div class="filterPart align">
@@ -59,7 +114,7 @@
                             <input type="text" placeholder="Find" name="superFind" id="superFind">
                         </form>
                         <div id="filter1"><a href=""><i class="fa fa-regular fa-filter"></i> </a></div>
-                        
+                                                
                     </div>
                     <div class="demographics align">
                         <div class="iconColumns align">
@@ -93,13 +148,27 @@
             </div>
         </div>
     </div>
-    <!-- superNavbar end -->
+    <!-- Super navbar end -->
     <!-- productsLine start -->
-    <div id="products" class="products">
-        <div class="container">
+    <div class="products">
+        <div class="container column">
+            <div class="hiddenProduct allColumn">
+                <h3 class="hiddenProductTitle">Products</h3>
+                <ul class="align">
+                    <li><a href="../plastic/plastic.html">Plastic Float</a></li>
+                    <li><a href="../wooden/wooden.html">Wooden Float</a></li>
+                    <li><a href="../trowel/trowel.html">Trowels</a></li>
+                    <li><a href="">Wheels</a></li>
+                    <li><a href="">Wooden Legs</a></li>
+                    <li><a href="">Braided Line</a></li>
+                    <li><a href="">Ropes</a></li>
+                    <li><a href="">Sharpening Stone</a></li>
+                    <li><a href="">Buckets</a></li>
+                </ul>
+            </div>
             <div class="product">
                 <ul id="productName">
-                    <li><a href="../plastic/plastic.html">Plastic Float</a></li>
+                    <li><a href="../plastic/plastic.html" target="_blank">Plastic Float</a></li>
                     <li><a href="../wooden/wooden.html">Wooden Float</a></li>
                     <li><a href="../trowel/">Trowel</a></li>
                     <li><a href="">Wheels</a></li>
@@ -114,191 +183,15 @@
         </div>
     </div>
     <!-- productsLine end -->
-    <!-- hard header start -->
-    <div class="hardHeader">
-        <div class="container">
-            <div class="hardHead align">
-                <div class="hardSidebar justifyColumn">
-                    <div class="catalog">
-                        <h1>Catalog</h1>
-                    </div>
-                    <div class="sideList justifyColumn">
-                        <ul class="justifyColumn downIcon">
-                            <div class="downIcon align">
-                                <div class="listIcon align">
-                                    <i class="fa fa-solid fa-link"></i>
-                                    <li>20 centimeter Wooden Float</li>
-                                </div>
-                                <i class="fa fa-thin fa-chevron-down fa-rotate-270"></i>
-                            </div>
-                            <div class="downIcon align">
-                                <div class="listIcon align">
-                                    <i class="fa fa-solid fa-link"></i>
-                                    <li>25 centimeter Wooden Float</li>
-                                </div>
-                                <i class="fa fa-thin fa-chevron-down fa-rotate-270"></i>
-                            </div>                                    
-                            <div class="downIcon align">
-                                <div class="listIcon align">
-                                    <i class="fa fa-solid fa-link"></i>
-                                    <li>30 centimeter Wooden Float</li>
-                                </div>
-                                <i class="fa fa-thin fa-chevron-down fa-rotate-270"></i>
-                            </div>                                    
-                            <div class="downIcon align">
-                                <div class="listIcon align">
-                                    <i class="fa fa-solid fa-link"></i>
-                                    <li>40 centimeter Wooden Float</li>
-                                </div>
-                                <i class="fa fa-thin fa-chevron-down fa-rotate-270"></i>
-                            </div>                                    
-                            <div class="downIcon align">
-                                <div class="listIcon align">
-                                    <i class="fa fa-solid fa-link"></i>
-                                    <li>50 centimeter Wooden Float</li>
-                                </div>
-                                <i class="fa fa-thin fa-chevron-down fa-rotate-270"></i>
-                            </div>                                    
-                            <div class="downIcon align">
-                                <div class="listIcon align">
-                                    <i class="fa fa-solid fa-link"></i>
-                                    <li>60 centimeter Wooden Float</li>
-                                </div>
-                                <i class="fa fa-thin fa-chevron-down fa-rotate-270"></i>
-                            </div>                                    
-                            <div class="downIcon align">
-                                <div class="listIcon align">
-                                    <i class="fa fa-solid fa-link"></i>
-                                    <li>70 centimeter Wooden Float</li>
-                                </div>
-                                <i class="fa fa-thin fa-chevron-down fa-rotate-270"></i>
-                            </div>                                    
-                            <div class="downIcon align">
-                                <div class="listIcon align">
-                                    <i class="fa fa-solid fa-link"></i>
-                                    <li>80 centimeter Wooden Float</li>
-                                </div>
-                                <i class="fa fa-thin fa-chevron-down fa-rotate-270"></i>
-                            </div>                                    
-                            <div class="downIcon align">
-                                <div class="listIcon align">
-                                    <i class="fa fa-solid fa-link"></i>
-                                    <li>1000 centimeter Wooden Float</li>
-                                </div>
-                                <i class="fa fa-thin fa-chevron-down fa-rotate-270"></i>
-                            </div>
-                            <div class="downIcon align">
-                                <div class="listIcon align">
-                                    <i class="fa fa-solid fa-link"></i>
-                                    <li>50 centimeter Wooden Float</li>
-                                </div>
-                                <i class="fa fa-thin fa-chevron-down fa-rotate-270"></i>
-                            </div>                                    
-                            <div class="downIcon align">
-                                <div class="listIcon align">
-                                    <i class="fa fa-solid fa-link"></i>
-                                    <li>60 centimeter Wooden Float</li>
-                                </div>
-                                <i class="fa fa-thin fa-chevron-down fa-rotate-270"></i>
-                            </div>                                    
-                            <div class="downIcon align">
-                                <div class="listIcon align">
-                                    <i class="fa fa-solid fa-link"></i>
-                                    <li>70 centimeter Wooden Float</li>
-                                </div>
-                                <i class="fa fa-thin fa-chevron-down fa-rotate-270"></i>
-                            </div>                                    
-                            <div class="downIcon align">
-                                <div class="listIcon align">
-                                    <i class="fa fa-solid fa-link"></i>
-                                    <li>80 centimeter Wooden Float</li>
-                                </div>
-                                <i class="fa fa-thin fa-chevron-down fa-rotate-270"></i>
-                            </div>                                    
-                            <div class="downIcon align">
-                                <div class="listIcon align">
-                                    <i class="fa fa-solid fa-link"></i>
-                                    <li>1000 centimeter Wooden Float</li>
-                                </div>
-                                <i class="fa fa-thin fa-chevron-down fa-rotate-270"></i>
-                            </div>
-                        </ul>
-                    </div>
-                </div>
-                <div class="hardHeadPart column">
-                    <div class="nameLocation">
-                        <h1><b>Shop of plastering products <span>XON in Tashkent</b></span></h1>
-                        <h2>
-                            Wooden and plastic floats, trowels and kovushes, Sharpening stones
-                            Wheels, mops, floats for travertine facades and ropes are available
-                        </h2>
-                    </div>
-                    <div class="floatSlider">
-                        <div class="slideItem column">
-                            <div class="slideContent justifyColumn">
-                                <div class="buttonName align">
-                                    <div class="rightCommentButton align">
-                                        <div class="rightComment">
-                                            <h3>
-                                                50 centimeter Wooden float differs <br>
-                                                form high quality, decent and expensive <br>
-                                                to affordable and cheap
-                                            </h3>
-                                        </div>
-                                        <!-- <button id="superHeaderNextButton" class="allRow lastSlide"><i class="fa fa-thin fa-chevron-down fa-rotate-270"></i></button> -->
-                                    </div>
-                                </div>
-                                <div id="buttonName" class="buttonName align">
-                                    <!-- <button id="superHeaderButton2" class="lastSlide allRow"><i class="fa fa-thin fa-chevron-down fa-rotate-90"></i></button> -->
-                                    <div class="rightCommentButton align">
-                                        <div class="rightComment">
-                                            <h3>
-                                                50 centimeter Wooden float differs <br>
-                                                form high quality, decent and expensive <br>
-                                                to affordable and cheap
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="buttonName2" class="buttonName align active">
-                                    <!-- <button id="superHeaderButton3" class="lastSlide allRow"><i class="fa fa-thin fa-chevron-down fa-rotate-90"></i></button> -->
-                                    <div class="rightCommentButton align">
-                                        <div class="rightComment">
-                                            <h3>
-                                                50 centimeter Wooden float differs <br>
-                                                form high quality, decent and expensive <br>
-                                                to affordable and cheap
-                                            </h3>
-                                        </div>
-                                        <!-- <button id="superHeaderNextButton" class="allRow lastSlide"><i class="fa fa-thin fa-chevron-down fa-rotate-270"></i></button> -->
-                                    </div>
-                                </div>
-                            </div>                                   
-                            <div class="dots allRow">
-                                <div class="dot"></div>
-                                <div class="dot"></div>
-                                <div class="dot active"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="SuperButtonHolder align">
-            <button id="superHeaderButton" class="lastSlide allRow"><i class="fa fa-thin fa-chevron-down fa-rotate-90"></i></button>
-            <button id="superHeaderNextButton" class="allRow lastSlide"><i class="fa fa-thin fa-chevron-down fa-rotate-270"></i></button>
-        </div> 
     </div>
-    <!-- hard header end -->
+        <!-- Delivery start -->
+        <div class="delivery allRow" id="Services">
+            <div class="container">
+                <div class="deliver align">
+                    <div class="discount"></div>
 
-    <!-- Delivery start -->
-    <div class="delivery allRow" id="Services">
-        <div class="container">
-            <div class="deliver align">
-                <div class="discount"></div>
-                
-                <div class="slideDeliver">
-                    <div class="slideCars column">
+                    <div class="slideDeliver">
+                        <div class="slideCars column">
                             
                             <div class="SlideCarsBox align index">
                                 <img src="../Assets/images/muraveyka.webp" alt="" class="ant">
@@ -371,15 +264,14 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                     </div>
     
                 </div>
-    </div>
-    <!-- Delivery end -->
-
+            </div>
+        <!-- Delivery end -->
     <!-- footer start -->
     <div class="footer">
         <div class="container">
@@ -469,7 +361,5 @@
         </div>
     </div>
     <!-- footer end -->
-
-<script src="./wooden.js"></script>
 </body>
 </html>

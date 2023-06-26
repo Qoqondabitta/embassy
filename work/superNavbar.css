@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+}
+.bigNav{
+    width: 100%;
+}
+.upperPart{
+    gap: 55px;
+    padding: 20px 0px 0 40px;
+}
+.logoName{
+    gap: 10px;
+    width: 25%;
+}
+.logoName img{
+    width: 80px;
+    height: 80px;
+}
+.xon h1{
+    color: rgb(102, 101, 101);
+    font-size: 120px;
+    letter-spacing: -0.12em;
+    line-height: 100px;
+    border-radius: 20px;
+}
+.listContact{
+    gap: 5px;
+    padding-right: 20px;
+}
+#navList{
+    padding-top: 17px;
+    display: flex;
+    column-gap: 20px;
+}
+#navList li{
+    list-style-type: none;
+    border-bottom: 2px dotted black;
+    transition: all 0.3s;
+}
+#navList li:hover{
+    transform: scale(1.15);
+}
+#navList li a{
+    color: black;
+    text-decoration: dotted;
+    transition: all 0.3s;
+}
+#navList li a:hover{
+    color: gold;
+}
+.buttonLine{
+    width: 100%;
+    gap: 31px;
+    padding-bottom: 15px;
+}
+.description{
+    width: 27%;
+}
+.tN{
+    width: 35%;
+    gap: 15px;
+}
+.tN i{
+    position: relative;
+    top: 3px;
+    font-size: 25px;
+    color: rgb(66, 238, 66);
+}
+.tN h1{
+    color: rgb(10, 10, 86);
+}
+.lastNavBtn{
+    width: 30%;
+
+}
+.signing{
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.3s;
+}
+.signing:hover{
+    transform: scale(1.15);
+}
+#log{
+    border: 1px solid orange;
+    background-color: orange;
+    /* box-shadow: 4px 7px 15px #837f7f; */
+}
+.a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.bottomPart{
+    width: 100%;
+    padding: 0px 20px 0 40px;
+    gap: 40px;
+}
+.filterPart{
+    width: 48%;  
+    column-gap: 0;
+    border-radius: 10px;
+    /* box-shadow: 4px 7px 15px #969393;   */
+}
+#superFind{
+    padding-left: 15px;
+    border-right-color: black;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-left-color: black;
+    height: 35px;
+    width: 520px;
+}
+#filter1{
+    margin-left: -50px;
+
+    /* border-right-color: black;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-left-color: white; */
+    /* text-decoration: none; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 60px;
+}
+#filter1 a i{
+    /* border-right-color: black;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-left-color: white; */
+    font-size: 27px;
+    color: black;
+}
+.demographics{
+    gap: 57px;
+}
+.iconColumns{
+    gap: 10px;
+}
+.navIcon i{
+    font-size: 20px;
+}
+#firstNavIcon{
+    color: rgb(64, 252, 64);
+}
+#secondtNavIcon{
+    color: gold;
+}
+.iconComment p{
+    font-size: 12px;
+}

@@ -41,11 +41,11 @@
     font-size: 10px;
 }
 .tel1{
-    border-radius: 10px;
-    box-shadow: 4px 7px 15px #969393;
     display: flex;
     align-items: center;
     column-gap: 0;
+    border-radius: 10px;
+    box-shadow: 4px 7px 15px #969393;
 }
 #find{
     padding-left: 15px;

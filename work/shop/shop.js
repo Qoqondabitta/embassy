@@ -51,7 +51,7 @@ let navItems = [
   { title: "Trowel", link: "../plastic/plastic.html" },
   { title: "Wheels", link: "../plastic/plastic.html" },
   { title: "Sharpening stone", link: "../plastic/plastic.html" },
-  { title: "Roupes", link: "../plastic/plastic.html" },
+  { title: "Ropes", link: "../plastic/plastic.html" },
   { title: "Kovush", link: "../plastic/plastic.html" },
   { title: "Wooden legs", link: "../plastic/plastic.html" },
   { title: "Mop", link: "../plastic/plastic.html" },
@@ -61,6 +61,7 @@ const createLinks = (base) => {
   wrapper.style.cssText = `
         width: 400px;
         background: grey;
+        float: bottom;
     `;
   base.map((item) => {
     const wrapperItem = document.createElement("div");

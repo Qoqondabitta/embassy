@@ -82,7 +82,7 @@
 }
 .doubleFoot{
     box-shadow: 4px 7px 15px #837f7f;
-    width: 80%;
+    width: 100%;
     display: flex;
     height: 400px;
     flex-direction: column;
@@ -105,14 +105,7 @@
 .above h1{
     color: white;
 }
-.black{
-    position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgb(62, 56, 56);
-}
+
 .telNumbers{
     display: flex;
     justify-content: space-between;

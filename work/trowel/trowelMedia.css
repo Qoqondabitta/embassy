@@ -1,0 +1,72 @@
+@media screen and (max-width:376px) {
+    .background{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        display: flex;
+        background-image: url(../Assets/images/streetMarket.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: rgb(53, 52, 52);
+    }
+    .superNavbar{
+        z-index: 10;
+        max-width: 375px;
+    }
+    .container{
+        z-index: 10;
+        max-width: 100%;
+    }
+    .upperPart{
+        z-index: 10;
+        height: 60px;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .listContact{
+        display: none;
+    }
+    .products{
+        /* z-index: 10; */
+        padding-top: 12px;
+    }
+    .burger{
+        z-index: 200;
+        display: flex;
+        padding-right: 10px;
+        padding-bottom: 30px;
+    }
+    .bottomPart{
+        display: none;
+    }
+    .hiddenProduct{
+        display: flex;
+        z-index: 10;
+        color: white;
+    }
+    .product{
+        display: none;
+    }
+    .logoName{
+        z-index: 10;
+        width: 40%;
+    }
+    .logoName img{
+        z-index: 10;
+        width: 35px;
+        height: 35px;
+    }
+    .xon h1{
+        z-index: 10;
+        color: white;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .fa-bars {
+        color: white;
+    }
+    .black{
+        display: flex;
+    }
+}
