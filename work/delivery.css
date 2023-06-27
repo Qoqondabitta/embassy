@@ -35,7 +35,7 @@
 }
 .index{
     /* position: absolute; */
-    z-index: 1000;
+    /* z-index: 1000; */
 }
 .SlideCarsBox img{
     width: 250px;

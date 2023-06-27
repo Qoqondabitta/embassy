@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 .products{
-    padding-top: 40px;
+    margin-top: 20px;
+    /* box-shadow: 14px 7px 15px rgb(233, 230, 230); */
 }
 .container{
-    max-width: 1300px;
+    width: 1300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,8 +16,7 @@
 .product{
     padding-top: 15px;
     padding-bottom: 15px;
-    width: 100%;
-    box-shadow: 14px 7px 15px rgb(233, 230, 230);
+    /* width: 100%; */
     display: flex;
     align-items: center;
     justify-content: center;
