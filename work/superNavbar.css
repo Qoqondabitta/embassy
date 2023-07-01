@@ -38,7 +38,7 @@
 #navList{
     padding-top: 17px;
     display: flex;
-    column-gap: 20px;
+    column-gap: 19px;
 }
 #navList li{
     list-style-type: none;

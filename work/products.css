@@ -5,10 +5,10 @@
 }
 .products{
     margin-top: 20px;
-    /* box-shadow: 14px 7px 15px rgb(233, 230, 230); */
+    box-shadow: 14px 7px 15px rgb(233, 230, 230);
 }
-.container{
-    width: 1300px;
+.containerProduct{
+    /* width: 1300px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@
 .product{
     padding-top: 15px;
     padding-bottom: 15px;
-    /* width: 100%; */
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;

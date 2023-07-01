@@ -308,3 +308,72 @@
     background-color: rgb(207, 201, 201);
 
 }
+/* About start */
+.aboutWood{
+    width: 100%;
+}
+.aboveWood{
+    width: 100%;
+    justify-content: center;
+    gap: 2px;
+}
+.sixtyWood{
+    background-image: url(../Assets/images/wooden\ float\ background3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    justify-content: space-between;
+    height: 230px;
+    width: 500px;
+    padding: 20px;
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+.sixtyWood button{
+    width: 150px;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+.textWood{
+    gap: 10px;
+}
+.twentyCenterWood{
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    color: white;
+    height: 230px;
+    position: relative;
+    z-index: 10;
+}
+.twentyLastWood{
+    height: 230px;
+    padding: 20px;
+}
+.blackWood{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -10;
+    background-color: rgba(89, 87, 87, 0.486);
+}
+.richWood{
+    background-image: url(../Assets/images/twentyrich.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* rotate: 90deg; */
+}
+.cheapWood{
+    background-image: url(../Assets/images/twentycheap.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* About End */
