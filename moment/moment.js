@@ -7,5 +7,7 @@ const hour = date.getHours()
 const minute = date.getMinutes()
 const second = date.getSeconds()
 let time = `${hour} : ${minute} : ${second} `
-const textTime = document.querySelector('#me')
-console.log(textTime);
+const t = document.querySelector('#me')
+// console.log(textTime);
+t.innerHTML = `${hour} :  ${minute}`
+console.log(t);
