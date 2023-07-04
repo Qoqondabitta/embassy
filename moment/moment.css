@@ -1,4 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding-top: 10px;
+    width: 100%;
+    display: flex;    
+    justify-content: center;
+}
+.multiple{
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(211, 209, 209);
+    background-color: rgba(250, 241, 241, 0.874);
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.MultipleLocale h1{
+    text-align: center;
+    color: rgb(87, 87, 87);
+    font-weight: 200;
+}
 .multipleChild{
     display: flex;
+    justify-content: flex-start;
     gap: 15px;
+}
+#specialColor{
+    color: black;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.multipleChild h4{
+    color: rgb(158, 156, 156);
+    font-weight: 50;
+}
+.multipleChild p{
+    color: rgb(137, 136, 136);
+    font-weight: 50;
+}
+.span1{
+    margin-left: 50px;
+}
+.span2{
+    margin-left: 35px;
+}
+.span3{
+    margin-left: 57px;
+}
+.span4{
+    margin-left: 61px;
+}
+.span5{
+    margin-left: 41px;
+}
+.span6{
+    margin-left: 53px;
+}
+.span7{
+    margin-left: 28px;
+}
+.span8{
+    margin-left: 46px;
+}
+.span9{
+    margin-left: 15px;
+}
+.span10{
+    margin-left: 38px;
 }
