@@ -122,12 +122,6 @@
 }
 #filter1{
     margin-left: -50px;
-
-    /* border-right-color: black;
-    border-top-color: black;
-    border-bottom-color: black;
-    border-left-color: white; */
-    /* text-decoration: none; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,10 +129,6 @@
     width: 60px;
 }
 #filter1 a i{
-    /* border-right-color: black;
-    border-top-color: black;
-    border-bottom-color: black;
-    border-left-color: white; */
     font-size: 27px;
     color: black;
 }
@@ -176,8 +166,10 @@
 }
 .hardSidebar{
     width: 29%;
-    padding: 20px 10px 20px 20px;
+    height: 728.14;
+    padding: 0px 10px 45px 20px;
     align-items: flex-start;
+    justify-content: flex-start;
 }
 .catalog{
     color: #b5b4b4;
@@ -209,8 +201,13 @@
     font-size: 20px;
 }
 .hardHeadPart{
+    padding-top: 20px;
     width: 70%;
     gap: 17px;
+}
+.nameLocation{
+    width: 780px;
+    height: 100px;
 }
 .nameLocation h1{
     color: rgb(54, 53, 53);
@@ -223,30 +220,50 @@
 }
 .slideContent{
     padding: 5px 30px 0 5px;
-    height: 514px;
+    height: 565px;
     /* background-image: url(../Assets/images/wooden\ float\ background.jpg); */
     
 }
 .buttonName{
+    height: 565px;
     justify-content: flex-end;
     width: 780px;
     padding-left: 5px;
     padding-right: 5px;
     height: 100%;
-    background-image: url(../Assets/images/wooden\ float\ background.jpg);
     gap: 350px;
     background-repeat: no-repeat;
     background-size: cover;
+    /* bck */
     position: absolute;
 }
-#buttonName{
-    background-image: url(../Assets/images/wooden\ float\ background2.jpg);
+#buttonName01{
+    height: 565px;
+    background-image: url(../Assets/images/rope.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: absolute;
 }
+#buttonName{
+    height: 565px;
+    background-image: url(../Assets/images/paqir.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+.bla{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -200;
+    background-color: rgba(65, 64, 64, 0.464);
+}
 #buttonName2{
+    height: 565px;
     background-image: url(../Assets/images/wooden\ float\ background3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -269,20 +286,20 @@
     color: rgb(248, 244, 244);
 }
 .SuperButtonHolder{
-    width: 100%;
+    position: relative;
+    z-index: 2000;
+    width: 770px;
     height: 100%;
     justify-content: space-between;
 }
 #superHeaderButton{
     position: relative;
-    z-index: 2000;
-    left: 370px;
-    top: -250px;
+    left: 20px;
+    top: -255px;
 }
 #superHeaderNextButton{
     position: relative;
-    z-index: 2000;
-    left: -55px;
+    /* left: -55px; */
     top: -255px;
 }
 .lastSlide{
