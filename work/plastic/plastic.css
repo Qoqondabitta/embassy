@@ -10,7 +10,7 @@
     padding-bottom: 100px;
 }
 .container{
-    max-width: 1300px;
+    width: 100%;
     display: flex;
     align-items: center;
 }
@@ -180,3 +180,24 @@
     text-decoration: none;
     color: white;
 }
+/* .doubleFoot{
+    width: 910px;
+} */
+#cupYellow{
+    color: yellow;
+}
+#tickGreen{
+    color: rgb(66, 244, 66);
+}
+#truckService{
+    color: rgb(179, 174, 174);
+}
+#skyBluePlane{
+    color: rgb(108, 187, 219);
+}
+#redInstagram{
+    color: red;
+}
+.above{
+    position: relative;
+} 

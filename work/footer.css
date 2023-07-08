@@ -90,6 +90,7 @@
     justify-content: space-between;
 }
 .above{
+    position: relative;
     color: yellow;
     display: flex;
     flex-direction: column;
