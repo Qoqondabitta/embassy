@@ -244,7 +244,7 @@
 }
 #buttonName01{
     height: 565px;
-    background-image: url(./img/hv.webp);
+    background-image: url(./img/1105c1c75b18d9daf02e3fe54b6f6a0d.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -252,7 +252,7 @@
 }
 #buttonName{
     height: 565px;
-    background-image: url(./img/ol.webp);
+    background-image: url(./img/15983d67f66f32ee44f1dacc93a85e0f.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -269,7 +269,7 @@
 }
 #buttonName2{
     height: 565px;
-    background-image: url(./img/black.webp);
+    background-image: url(./img/99331eabce8e31d0a4652574bd11ed32.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -343,10 +343,10 @@
     gap: 2px;
 }
 .sixtyWood{
-    background-image: url(./img/qu.webp);
+    background-image: url(./img/99331eabce8e31d0a4652574bd11ed32.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     justify-content: space-between;
     height: 230px;
     width: 500px;
@@ -390,14 +390,14 @@
 }
 .richWood{
     position: relative;
-    background-image: url(./img/ol.webp);
+    background-image: url(./img/1105c1c75b18d9daf02e3fe54b6f6a0d\ \(1\).jpg);
     background-color: rgba(48, 48, 48, 0.464);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .cheapWood{
-    background-image: url(./img/posshka.jpg);
+    background-image: url(./img/a5818e293ffba4b3951704f30291441b\ \(1\).jpg);
     background-color: rgba(48, 48, 48, 0.464);
     background-position: center;
     background-size: cover;
@@ -423,7 +423,7 @@
     width: 545px;
     height: 100%;
     background-color: pink;
-    background-image: url(./img/black.webp);
+    background-image: url(./img/troyka.jpg);
     background-size: cover;
     background-position: left;
 }
@@ -490,27 +490,27 @@
 }
 .thirtyDemand{
     position: relative;
-    background-image: url(./img/in.jpg);
+    background-image: url(./img/reel.jpg);
     background-size: cover;
-    background-position: left;
+    background-position: center;
 }
 .seventyDemand{
     position: relative;
-    background-image: url(./img/utor.jpg);
+    background-image: url(./img/svr.jpg);
     background-size: cover;
-    background-position: left;    
+    background-position: center;    
 }
 .eightyDemand{
     position: relative;
-    background-image: url(./img/es.webp);
+    background-image: url(./img/big.webp);
     background-size: cover;
     background-position: center;
 }
 .fiftyDemand{
     position: relative;
-    background-image: url(./img/tor.webp);
+    background-image: url(./img/cen.webp);
     background-size: cover;
-    background-position: left;    
+    background-position: center;    
 }
 .lessDemanding{
     width: 100%;
@@ -523,7 +523,7 @@
     z-index: 10;
     width: 535px;
     height: 200px;
-    background-image: url(./img/posshka.jpg);
+    background-image: url(./img/yot.webp);
     background-size: cover;
     background-position: center;
 }
@@ -548,7 +548,7 @@
     z-index: 10;
     width: 530px;
     height: 200px;
-    background-image: url(./img/dark.jpg);
+    background-image: url(./img/g\'ayrat.webp);
     background-size: cover;
     background-position: center;
 }

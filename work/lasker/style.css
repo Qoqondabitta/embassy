@@ -13,7 +13,7 @@
     width: 100%;
 }
 .upperPart{
-    gap: 25px;
+    gap: 55px;
     padding: 20px 20px 0 40px;
 }
 .logoName{
@@ -24,13 +24,11 @@
     width: 80px;
     height: 80px;
 }
-
 .xon h1{
     color: rgb(102, 101, 101);
     font-size: 120px;
     letter-spacing: -0.12em;
     line-height: 100px;
-    margin-right: 20px;
     border-radius: 20px;
 }
 .listContact{
@@ -42,7 +40,6 @@
     column-gap: 20px;
 }
 #navList li{
-    font-size: 13px;
     list-style-type: none;
     border-bottom: 2px dotted black;
     transition: all 0.3s;
@@ -244,7 +241,7 @@
 }
 #buttonName01{
     height: 565px;
-    background-image: url(./img/hv.webp);
+    background-image: url(./img/photo_2023-07-09_16-02-20.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -252,7 +249,7 @@
 }
 #buttonName{
     height: 565px;
-    background-image: url(./img/ol.webp);
+    background-image: url(./img/photo_2023-07-09_16-02-53.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -269,10 +266,10 @@
 }
 #buttonName2{
     height: 565px;
-    background-image: url(./img/black.webp);
+    background-image: url(./img/20190423_224933173176-500x500.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: center;
     position: absolute;
 }
 .active{
@@ -343,7 +340,7 @@
     gap: 2px;
 }
 .sixtyWood{
-    background-image: url(./img/qu.webp);
+    background-image: url(./img/photo_2023-07-09_16-02-52.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -389,16 +386,13 @@
     background-color: rgba(89, 87, 87, 0.486);
 }
 .richWood{
-    position: relative;
-    background-image: url(./img/ol.webp);
-    background-color: rgba(48, 48, 48, 0.464);
+    background-image: url(./img/photo_2023-07-09_16-02-55.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .cheapWood{
-    background-image: url(./img/posshka.jpg);
-    background-color: rgba(48, 48, 48, 0.464);
+    background-image: url(./img/photo_2023-07-09_16-02-20.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -423,7 +417,7 @@
     width: 545px;
     height: 100%;
     background-color: pink;
-    background-image: url(./img/black.webp);
+    background-image: url(./img/leska_dlya_trimmera_premium_siat_2_4_mm_10_m_kvadrat_kruchenyy.webp);
     background-size: cover;
     background-position: left;
 }
@@ -490,25 +484,25 @@
 }
 .thirtyDemand{
     position: relative;
-    background-image: url(./img/in.jpg);
+    background-image: url(./img/green.jpg);
     background-size: cover;
     background-position: left;
 }
 .seventyDemand{
     position: relative;
-    background-image: url(./img/utor.jpg);
+    background-image: url(./img/black.jpg);
     background-size: cover;
     background-position: left;    
 }
 .eightyDemand{
     position: relative;
-    background-image: url(./img/es.webp);
+    background-image: url(./img/wheate.webp);
     background-size: cover;
     background-position: center;
 }
 .fiftyDemand{
     position: relative;
-    background-image: url(./img/tor.webp);
+    background-image: url(./img/gold.webp);
     background-size: cover;
     background-position: left;    
 }
@@ -523,9 +517,9 @@
     z-index: 10;
     width: 535px;
     height: 200px;
-    background-image: url(./img/posshka.jpg);
+    background-image: url(./img/sabzi.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: right;
 }
 .orderButtonForWoodenFloat{
     justify-content: space-between;
@@ -548,7 +542,7 @@
     z-index: 10;
     width: 530px;
     height: 200px;
-    background-image: url(./img/dark.jpg);
+    background-image: url(./img/sim.webp);
     background-size: cover;
     background-position: center;
 }
