@@ -1,0 +1,602 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+}
+.bigNav {
+  width: 100%;
+}
+.upperPart {
+  gap: 55px;
+  padding: 20px 20px 0 40px;
+}
+.logoName {
+  gap: 10px;
+  width: 25%;
+}
+.logoName img {
+  width: 80px;
+  height: 80px;
+}
+.xon h1 {
+  color: rgb(102, 101, 101);
+  font-size: 120px;
+  letter-spacing: -0.12em;
+  line-height: 100px;
+  border-radius: 20px;
+}
+.listContact {
+  gap: 5px;
+}
+#navList {
+  padding-top: 17px;
+  display: flex;
+  column-gap: 20px;
+}
+#navList li {
+  list-style-type: none;
+  border-bottom: 2px dotted black;
+  transition: all 0.3s;
+}
+#navList li:hover {
+  transform: scale(1.15);
+}
+#navList li a {
+  color: black;
+  text-decoration: dotted;
+  transition: all 0.3s;
+}
+#navList li a:hover {
+  color: gold;
+}
+.buttonLine {
+  width: 100%;
+  gap: 31px;
+  padding-bottom: 15px;
+}
+.description {
+  width: 27%;
+}
+.tN {
+  width: 35%;
+  gap: 15px;
+}
+.tN i {
+  position: relative;
+  top: 3px;
+  font-size: 25px;
+  color: rgb(66, 238, 66);
+}
+.tN h1 {
+  color: rgb(10, 10, 86);
+}
+.lastNavBtn {
+  width: 30%;
+}
+.signing {
+  width: 180px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  transition: all 0.3s;
+}
+.signing:hover {
+  transform: scale(1.15);
+}
+#log {
+  border: 1px solid orange;
+  background-color: orange;
+  /* box-shadow: 4px 7px 15px #837f7f; */
+}
+.a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.bottomPart {
+  width: 100%;
+  padding: 0px 20px 0 40px;
+  gap: 40px;
+}
+.filterPart {
+  width: 48%;
+  column-gap: 0;
+  border-radius: 10px;
+  /* box-shadow: 4px 7px 15px #969393;   */
+}
+#superFind {
+  padding-left: 15px;
+  border-right-color: black;
+  border-top-color: black;
+  border-bottom-color: black;
+  border-left-color: black;
+  height: 35px;
+  width: 520px;
+}
+#filter1 {
+  margin-left: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 60px;
+}
+#filter1 a i {
+  font-size: 27px;
+  color: black;
+}
+.demographics {
+  gap: 57px;
+}
+.iconColumns {
+  gap: 10px;
+}
+.navIcon i {
+  font-size: 20px;
+}
+#firstNavIcon {
+  color: rgb(64, 252, 64);
+}
+#secondtNavIcon {
+  color: gold;
+}
+.iconComment p {
+  font-size: 12px;
+}
+#products {
+  padding-top: 10px;
+}
+#productName li {
+  border-bottom: 2px dotted black;
+}
+
+/* hardHeader start */
+.hardHeader {
+  margin-top: 30px;
+}
+.hardHead {
+  gap: 15px;
+  width: 100%;
+}
+
+/* hardSidebar start */
+.hardSidebar {
+  width: 29%;
+  height: 728.14;
+  padding: 0px 10px 45px 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.catalog {
+  color: #b5b4b4;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  padding: 10px 10px 5px 20px;
+  background-color: rgb(195, 234, 250);
+}
+.sideList {
+  padding: 10px 10px 20px 20px;
+  box-shadow: 4px 7px 15px #c0bbbb;
+  width: 100%;
+  align-items: flex-start;
+  gap: 25px;
+}
+.sideList ul {
+  list-style-type: none;
+  gap: 20px;
+}
+.downIcon {
+  width: 100%;
+  justify-content: space-between;
+}
+.listIcon {
+  gap: 10px;
+}
+.listIcon i {
+  font-size: 20px;
+}
+/* hardSidebar end */
+
+/* hardHeadPart start */
+.hardHeadPart {
+  padding-top: 20px;
+  width: 70%;
+  gap: 17px;
+}
+.nameLocation {
+  width: 780px;
+  height: 100px;
+}
+.nameLocation h1 {
+  color: rgb(54, 53, 53);
+}
+.nameLocation h1 span {
+  color: gold;
+}
+.nameLocation h2 {
+  color: rgb(89, 87, 87);
+}
+.slideContent {
+  padding: 5px 30px 0 5px;
+  height: 565px;
+  /* background-image: url(../Assets/images/wooden\ float\ background.jpg); */
+}
+.buttonName {
+  height: 565px;
+  justify-content: flex-end;
+  width: 780px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 100%;
+  gap: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* bck */
+  position: absolute;
+}
+#buttonName01 {
+  height: 565px;
+  background-image: url(https://www.marinesuppliers.ie/wp-content/uploads/2020/11/manilla.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+#buttonName {
+  height: 565px;
+  background-image: url(https://cdn.climbing.com/wp-content/uploads/2022/07/GettyImages-1272390344-scaled.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+.bla {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -200;
+  background-color: rgba(65, 64, 64, 0.464);
+}
+#buttonName2 {
+  height: 565px;
+  background-image: url(https://www.airhead.com/cdn/shop/collections/Airhead-Top-Banner_ropes-harnesses_2048x.jpg?v=1681223614);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+.active {
+  z-index: 100;
+  background-color: orange;
+}
+.floatSlider {
+  padding-right: 60px;
+}
+.rightCommentButton {
+  gap: 20px;
+}
+.rightComment {
+  padding-right: 70px;
+  text-align: center;
+  color: rgb(248, 244, 244);
+}
+.SuperButtonHolder {
+  position: relative;
+  z-index: 2000;
+  width: 770px;
+  height: 100%;
+  justify-content: space-between;
+}
+#superHeaderButton {
+  position: relative;
+  left: 20px;
+  top: -255px;
+}
+#superHeaderNextButton {
+  position: relative;
+  /* left: -55px; */
+  top: -255px;
+}
+.lastSlide {
+  /* position: absolute;
+    z-index: 200; */
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  font-size: 30px;
+}
+.dots {
+  z-index: 2000;
+  width: 100%;
+  gap: 10px;
+  position: relative;
+  top: -30px;
+}
+.dot {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(207, 201, 201);
+}
+/* hardHeadPart end */
+
+/* hardHeader end */
+
+/* About start */
+.aboutWood {
+  width: 100%;
+  gap: 20px;
+}
+.aboveWood {
+  width: 100%;
+  justify-content: center;
+  gap: 2px;
+}
+.sixtyWood {
+  background-image: url(https://i0.wp.com/blacksheepadventuresports.com/wp-content/uploads/2018/10/RopeSelection-1-of-1.jpg?ssl=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  justify-content: space-between;
+  height: 230px;
+  width: 500px;
+  padding: 20px;
+  color: white;
+  position: relative;
+  z-index: 10;
+}
+.sixtyWood button {
+  width: 150px;
+  background-color: orange;
+  border: 1px solid orange;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}
+.textWood {
+  gap: 10px;
+}
+.twentyCenterWood {
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  color: white;
+  height: 230px;
+  position: relative;
+  z-index: 10;
+}
+.twentyLastWood {
+  height: 230px;
+  padding: 20px;
+}
+.blackWood {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -10;
+  background-color: rgba(89, 87, 87, 0.486);
+}
+.richWood {
+  background-image: url(https://www.peakmountaineering.com/wp-content/uploads/2021/06/Choosing-A-Climbing-Rope-2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* rotate: 90deg; */
+}
+.cheapWood {
+  background-image: url(https://caverntours.com/wp-content/uploads/2021/09/how-long-do-climbing-ropes-last.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.belowWood {
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100%;
+  align-items: center;
+  gap: 20px;
+}
+.mostDemanding {
+  justify-content: center;
+  /* padding-left: 80px; */
+  width: 100%;
+  gap: 30px;
+  height: 480px;
+}
+.sixtyWoodenFloatDemand {
+  justify-content: space-between;
+  position: relative;
+  z-index: 10;
+  width: 545px;
+  height: 100%;
+  background-color: pink;
+  background-image: url(https://u7q2x7c9.stackpathcdn.com/photos/27/19/393463_15512_XL.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
+.blaDemand {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -200;
+  background-color: rgba(48, 48, 48, 0.464);
+}
+.titleWooden {
+  padding-left: 20px;
+  padding-top: 20px;
+  color: white;
+}
+#sixWoodColor {
+  /* color: rgb(178, 236, 90); */
+  color: white;
+}
+.sixtyDiscount {
+  padding-left: 20px;
+  align-items: flex-start;
+  /* gap: 10px; */
+}
+.sixtyDiscount h1 {
+  color: skyblue;
+}
+.sixtyDiscount h1 span {
+  padding-left: 20px;
+  color: white;
+}
+#six span {
+  color: gold;
+}
+.moreYears {
+  padding-left: 20px;
+  padding-bottom: 35px;
+  gap: 10px;
+  color: white;
+}
+.moreYears button {
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  /* box-shadow: 4px 7px 15px #837f7f; */
+  width: 160px;
+  height: 40px;
+  transition: all 0.3s;
+  background-color: orange;
+  border-color: orange;
+  color: white;
+}
+.fourSizedWoodenFloat {
+  width: 510px;
+  flex-wrap: wrap;
+  /* justify-content: flex-end; */
+  row-gap: 15px;
+  /* gap: 15px; */
+  column-gap: 20px;
+}
+.fourDemand {
+  position: relative;
+  z-index: 10;
+  background-color: yellow;
+  width: 245px;
+  height: 230px;
+}
+.thirtyDemand {
+  position: relative;
+  background-image: url(https://i0.wp.com/adventureprotocol.com/wp-content/uploads/2017/09/File_005.jpeg?resize=600%2C401);
+  background-size: cover;
+  background-position: left;
+}
+.seventyDemand {
+  position: relative;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp5yQPIhc9Qxu7A52gMSBvQcgSlWv7ftBUY8pKdQnmEkNeQLRTwBdcxIrwt2DA7kCV8mY&usqp=CAU);
+  background-size: cover;
+  background-position: left;
+}
+.eightyDemand {
+  position: relative;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5a887a2849fc2b8e07131ff6/1540615910787-D9JPJ6G7VHYLMEBQUODZ/BD+Climbing+Rope2.jpg?format=1500w);
+  background-size: cover;
+  background-position: right;
+}
+.fiftyDemand {
+  position: relative;
+  background-image: url(https://thumbs.dreamstime.com/b/climbing-rope-view-blue-close-up-222163881.jpg);
+  background-size: cover;
+  background-position: left;
+}
+.lessDemanding {
+  width: 100%;
+  gap: 20px;
+  justify-content: center;
+}
+.fortyWooden {
+  justify-content: space-between;
+  position: relative;
+  z-index: 10;
+  width: 535px;
+  height: 200px;
+  background-image: url(https://s3.amazonaws.com/images.gearjunkie.com/uploads/2020/09/petzl-climbing-rope-700x466.jpg);
+  background-size: cover;
+  background-position: right;
+  /* object-fit: cover; */
+}
+.orderButtonForWoodenFloat {
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.orderButtonForWoodenFloat button {
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  /* box-shadow: 4px 7px 15px #837f7f; */
+  width: 140px;
+  height: 30px;
+  transition: all 0.3s;
+  background-color: orange;
+  border-color: orange;
+  color: white;
+}
+.twentyWoodenDemand {
+  justify-content: space-between;
+  position: relative;
+  z-index: 10;
+  width: 530px;
+  height: 200px;
+  background-image: url(https://www.aspiring.co.nz/wp-content/uploads/2021/04/118126975_3392064564165597_6462210938291230912_n-1024x683.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.notPriceDiscount {
+  color: white;
+  padding-left: 20px;
+  /* padding-bottom: 20px; */
+}
+.notPriceDiscount span {
+  color: gold;
+}
+/* About End */
+
+/* footer start */
+/* .doubleFoot{
+    width: 910px;
+} */
+#cupYellow {
+  color: yellow;
+}
+#tickGreen {
+  color: rgb(66, 244, 66);
+}
+#truckService {
+  color: rgb(179, 174, 174);
+}
+#skyBluePlane {
+  color: rgb(108, 187, 219);
+}
+#redInstagram {
+  color: red;
+}
+.above {
+  position: relative;
+}
+.bla {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -200;
+  background-color: rgba(65, 64, 64, 0.464);
+}
+/* footer end */
