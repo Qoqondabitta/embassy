@@ -243,7 +243,7 @@
 }
 #buttonName01 {
   height: 565px;
-  background-image: url(../Assets/images/gildrak4.jpeg);
+  background-image: url(../Assets/images/sharpingcarusel1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -251,7 +251,7 @@
 }
 #buttonName {
   height: 565px;
-  background-image: url(../Assets/images/gildrak3.webp);
+  background-image: url(../Assets/images/sharpingcarusel2.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -268,7 +268,7 @@
 }
 #buttonName2 {
   height: 565px;
-  background-image: url(../Assets/images/gildrak2.jpg);
+  background-image: url(../Assets/images/sharpingcarusel3.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -343,10 +343,10 @@
   gap: 2px;
 }
 .sixtyWood {
-  background-image: url(../Assets/images/gildrak6.webp);
-  background-size: 100%;
+  background-image: url(../Assets/images/sharping1.jpeg);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   justify-content: space-between;
   height: 230px;
   width: 500px;
@@ -389,14 +389,14 @@
   background-color: rgba(89, 87, 87, 0.486);
 }
 .richWood {
-  background-image: url(../Assets/images/gildrak7.webp);
+  background-image: url(../Assets/images/sharping2.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   /* rotate: 90deg; */
 }
 .cheapWood {
-  background-image: url(../Assets/images/gildrak8.webp);
+  background-image: url(../Assets/images/sharping3.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -422,7 +422,7 @@
   width: 545px;
   height: 100%;
   background-color: pink;
-  background-image: url(../Assets/images/gildrak9.jpeg);
+  background-image: url(../Assets/images/sharping4.jpeg);
   background-size: cover;
   background-position: left;
 }
@@ -494,25 +494,25 @@
 }
 .thirtyDemand {
   position: relative;
-  background-image: url(../Assets/images/gildrak10.jpeg);
+  background-image: url(../Assets/images/sharping4.jpeg);
   background-size: cover;
   background-position: left;
 }
 .seventyDemand {
   position: relative;
-  background-image: url(../Assets/images/gildrak11.jpeg);
+  background-image: url(../Assets/images/sharping5.jpeg);
   background-size: cover;
   background-position: left;
 }
 .eightyDemand {
   position: relative;
-  background-image: url(../Assets/images/gildrak12.jpeg);
+  background-image: url(../Assets/images/sharping6.jpeg);
   background-size: cover;
   background-position: right;
 }
 .fiftyDemand {
   position: relative;
-  background-image: url(../Assets/images/gildrak13.jpeg);
+  background-image: url(../Assets/images/sharping7.jpeg);
   background-size: cover;
   background-position: left;
 }
@@ -527,7 +527,7 @@
   z-index: 10;
   width: 535px;
   height: 200px;
-  background-image: url(../Assets/images/gildrak16.jpeg);
+  background-image: url(../Assets/images/sharping8.jpeg);
   background-size: cover;
   background-position: right;
   /* object-fit: cover; */
@@ -554,7 +554,7 @@
   z-index: 10;
   width: 530px;
   height: 200px;
-  background-image: url(../Assets/images/gildrak15.jpeg);
+  background-image: url(../Assets/images/20as20.jpg);
   background-size: cover;
   background-position: center;
 }
