@@ -1,0 +1,11 @@
+@media screen and (min-width:1250px){
+    #navList{
+        column-gap: 22px;
+    }
+    .buttonLine{
+        gap: 10px;
+    }
+    .demographics{
+        gap: 53px;
+    }
+}
