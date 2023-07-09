@@ -56,19 +56,24 @@ let navItems = [
   { title: "Wooden legs", link: "../plastic/plastic.html" },
   { title: "Mop", link: "../plastic/plastic.html" },
 ];
-const wrapper = document.createElement("div");
+const wrapper = document.querySelector("#search");
 const createLinks = (base) => {
   wrapper.style.cssText = `
-        width: 100%;
-        background: grey;
-        display: block;
-        flex-direction: column;
-    `;
+  backgroud-color: red;
+   
+  `;
 
   base.map((item) => {
     const wrapperItem = document.createElement("div");
     wrapperItem.style.cursor = "pointer";
     const a = document.createElement("a");
+    a.style.cssText = `
+    display: block;
+    background-color: #e7e7e7;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px`;
     a.innerText = item.title;
     a.setAttribute("href", item.link);
     wrapperItem.append(a);
