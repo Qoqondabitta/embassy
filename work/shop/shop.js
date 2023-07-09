@@ -59,10 +59,12 @@ let navItems = [
 const wrapper = document.createElement("div");
 const createLinks = (base) => {
   wrapper.style.cssText = `
-        width: 400px;
+        width: 100%;
         background: grey;
-        float: bottom;
+        display: block;
+        flex-direction: column;
     `;
+
   base.map((item) => {
     const wrapperItem = document.createElement("div");
     wrapperItem.style.cursor = "pointer";
@@ -76,7 +78,7 @@ const createLinks = (base) => {
 };
 const findInput = document.querySelector("#find");
 findInput.addEventListener("input", ({ target: { value } }) => {
-  if(wrapper) wrapper.innerHTML = "";
+  if (wrapper) wrapper.innerHTML = "";
   if (value.length >= 1) {
     let filtered = navItems.filter((item) => {
       return item.title.toLowerCase().includes(value.toLowerCase());
