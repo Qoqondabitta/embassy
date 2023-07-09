@@ -338,7 +338,7 @@
 /* About start */
 .aboutWood{
     width: 100%;
-    gap: 40px;
+    gap: 20px;
 }
 .aboveWood{
     width: 100%;
@@ -442,6 +442,7 @@
 .titleWooden{
     padding-left: 20px;
     padding-top: 20px;
+    color: white;
 }
 #sixWoodColor{
     /* color: rgb(178, 236, 90); */
@@ -491,7 +492,7 @@
     position: relative;
     z-index: 10;
     background-color: yellow;
-    width: 240px;
+    width: 245px;
     height: 230px;
 }
 .thirtyDemand{
@@ -517,6 +518,56 @@
     background-image: url(../Assets/images/50as60.jpg);
     background-size: cover;
     background-position: left;    
+}
+.lessDemanding{
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+}
+.fortyWooden{
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+    width: 535px;
+    height: 200px;
+    background-image: url(../Assets/images/40.jpg);
+    background-size: cover;
+    background-position: right;
+    /* object-fit: cover; */
+}
+.orderButtonForWoodenFloat{
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.orderButtonForWoodenFloat button{
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    /* box-shadow: 4px 7px 15px #837f7f; */
+    width: 140px;
+    height: 30px;
+    transition: all 0.3s;    
+    background-color: orange;
+    border-color: orange;
+    color: white;
+}
+.twentyWoodenDemand{
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+    width: 530px;
+    height: 200px;
+    background-image: url(../Assets/images/20as20.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.notPriceDiscount{
+    color: white;
+    padding-left: 20px;
+    /* padding-bottom: 20px; */
+}
+.notPriceDiscount span{
+    color: gold;
 }
 /* About End */
 

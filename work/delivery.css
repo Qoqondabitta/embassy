@@ -9,7 +9,7 @@
     position: relative;
 }
 .container{
-    max-width: 1300px;
+    width: 1300px;
     display: flex;
     align-items: center;
 }
@@ -24,7 +24,8 @@
     width: 100%;
 }
 .slideCars{
-    /* height: 400px; */
+    position: relative;
+    /* height: 200px; */
     padding-right: 30px;
     padding-bottom: 20px;
     width: 100%;
@@ -34,14 +35,22 @@
     box-shadow: 4px 7px 15px #837f7f;
     gap: 25px;
     padding: 10px;
-    width: 100%;
+    width: 946.825px;
     border: 1px solid rgb(225, 220, 220);
     /* position: absolute; */
 }
-/* .index{ */
-    /* position: absolute; */
-    /* z-index: 1000; */
-/* } */
+/* .none{
+    display: none;
+}
+.index{
+    position: absolute; 
+    z-index: 1000;
+    display: flex;
+}  */
+
+.thirdSlideCarsBox{
+    position: absolute;
+}
 .SlideCarsBox img{
     width: 250px;
     height: 160px;
